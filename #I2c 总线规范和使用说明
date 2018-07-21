@@ -1,0 +1,7 @@
+#I2c 总线规范和使用说明
+第六版 2014年4月4日
+文件信息
+关键词： I2C, I2C-bus, Standard-mode, Fast-mode, Fast-mode Plus, Fm+, Ultra Fast-mode, UFm, High Speed, Hs, inter-IC, SDA, SCL, USDA, USCL
+摘要：Philips 半导体（现在是 NXP 半导体）开发了一个简单的双向2-线总线用于芯片互联高效控制。此总线称为 Inter-IC 或i2c总线。总线只需要两条信号线：一个串行数据线现
+（SDA）和一个串行时钟线（SCL）。8位串行,双向的数据传输在标准模式下通信速度可以达到100 kbit/s，快速模式下可以达到400 kbit/s，在快速模式 Plus（Fm+）中最高可达1 Mbit/s，或
+在高速模式下最多可达3.4 Mbit/s。超快模式时数据单向传输，最多可达5 Mbit/s.
